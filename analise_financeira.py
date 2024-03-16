@@ -7,7 +7,8 @@ st.set_page_config(layout="wide",page_title="Relatorio de Vendas", page_icon="ðŸ
 class Dashboard():
     def __init__(self) -> None:
         self.file = 'data/sales.csv'
-
+    
+    @st.cache_data
     def load_csv(self):
         df = pd.read_csv(self.file)
         df["Order Date"] = pd.to_datetime(df["Order Date"])
