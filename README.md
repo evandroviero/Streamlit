@@ -30,3 +30,13 @@ poetry add streamlit
 ```bash
 poetry run streamlit run app.py
 ```
+ou 
+
+```bash
+poetry run streamlit run imc.py
+```
+
+ou
+```bash
+poetry run streamlit run analise_financeira.py
+```
