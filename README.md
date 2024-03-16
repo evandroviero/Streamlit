@@ -1,7 +1,7 @@
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/evandroviero/Data-Quality.git
+git clone https://github.com/evandroviero/Streamlit
 cd STREAMLIT
 ```
 
